@@ -51,5 +51,5 @@ def merge_data(keys, data)
   data.each do |key, value|
     data[key] = {key => value}
   end
-  return data
+  data
 end
