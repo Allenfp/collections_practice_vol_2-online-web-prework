@@ -62,11 +62,8 @@ end
 
 
 def find_cool(data)
-  is_cool = []
-  data.each do |x|
-   if x.select{|key, value| x[value] == 'cool' } == true
-     is_cool.push(x)
-   end
-  # is_cool
-  end
+  data.each{ |x|
+    if x[:temperature] == 'cool'
+      return x
+  }
 end
