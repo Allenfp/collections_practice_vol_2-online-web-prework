@@ -49,8 +49,8 @@ def merge_data(keys, data)
   new_hash = Hash.new
   new_array = Array.new
 
-  data.each do |key, value|
-    puts data[key] 
+  data.each do |element|
+    puts data[key]
   end
 
   data
