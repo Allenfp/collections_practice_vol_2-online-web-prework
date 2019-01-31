@@ -73,6 +73,6 @@ def find_cool(data)
 end
 
 def organize_schools(data)
-  data.ivert
+  data.invert
 
 end
