@@ -63,6 +63,6 @@ end
 
 def find_cool(data)
   is_cool = []
-  data.select{|key, hash| hash["cool"] }
+  is_cool.push(data.select{|key, hash| hash["cool"] })
   is_cool
 end
