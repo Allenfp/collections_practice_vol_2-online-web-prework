@@ -77,8 +77,8 @@ def organize_schools(data)
   new_hash = Hash.new
 
 
-
+  new_hash = data
 
   new_hash
-  
+
 end
