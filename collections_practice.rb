@@ -67,6 +67,6 @@ def find_cool(data)
    if x.select{|key, value| x[value] == 'cool' } == true
      is_cool.push(x)
    end
-  is_cool
+  # is_cool
   end
 end
