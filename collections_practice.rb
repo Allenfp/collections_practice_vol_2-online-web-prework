@@ -62,6 +62,5 @@ end
 
 
 def find_cool(data)
-   data.select{|key, hash| hash["client_id"] == "2180" }
-
+   data.select{|key, hash| hash["cool"] == "2180" }
 end
