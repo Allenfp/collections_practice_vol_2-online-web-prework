@@ -59,3 +59,9 @@ def merge_data(keys, data)
     new_array
 
 end
+
+
+def find_cool(data)
+   data.select{|key, hash| hash["client_id"] == "2180" }
+
+end
