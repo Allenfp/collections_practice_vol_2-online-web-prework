@@ -52,7 +52,7 @@ def merge_data(keys, data)
   data.each do |data_element|
     keys.each do |key_element|
       data_element[key_element[:first_name]]["first_name"] = key_element[:first_name]
-      new_array.push()
+      # new_array.push()
     end
     new_array
   end
