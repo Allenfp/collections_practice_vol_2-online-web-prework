@@ -45,13 +45,13 @@ def count_elements(array) #This one stumped me hard!
 end
 
 def merge_data(keys, data)
-  
+
   new_hash = Hash.new
   new_array = Array.new
 
   data.each do |key, value|
     puts data[key] 
   end
-  
+
   data
 end
