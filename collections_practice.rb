@@ -77,6 +77,7 @@ new_hash = Hash.new
 data[:schools].each do |key, value|
   new_hash << value[:location] key
 end
+new_hash
 end
 
 end
