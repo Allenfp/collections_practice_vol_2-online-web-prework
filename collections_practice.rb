@@ -72,7 +72,7 @@ def find_cool(data)
 
 end
 
-def organized_schools(data)
-  data.invert  
+def organize_schools(data)
+  data.invert
 
 end
