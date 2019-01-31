@@ -50,7 +50,11 @@ def merge_data(keys, data)
   new_array = Array.new
 
   data.each do |element|
-    puts data[key]
+    element.each do |key, value|
+      element[key] = {key => value}
+      new_array.push(element[key])
+
+    end
   end
 
   data
