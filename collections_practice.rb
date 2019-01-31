@@ -77,7 +77,7 @@ def organize_schools(data)
   new_hash = Hash.new
 
   data[:schools].each {|key, value| new_hash << value[:location] key}
-  end
+
 
   new_hash
 end
