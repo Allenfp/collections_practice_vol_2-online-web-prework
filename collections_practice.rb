@@ -54,7 +54,7 @@ def merge_data(keys, data)
       # element[key] = {key => value}
     new_array.push(element)
 
-    end
+    # end
     new_array
   end
 
