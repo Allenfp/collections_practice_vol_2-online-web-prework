@@ -55,6 +55,7 @@ def merge_data(keys, data)
       new_array.push(element[key])
 
     end
+    new_array
   end
 
   data
